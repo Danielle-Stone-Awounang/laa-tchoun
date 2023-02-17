@@ -1,2 +1,2 @@
-# laa-tchoun
+# recettes africaines
 application de recettes africaines
