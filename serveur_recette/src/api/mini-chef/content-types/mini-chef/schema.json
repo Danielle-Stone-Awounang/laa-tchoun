@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mini_chefs",
+  "info": {
+    "singularName": "mini-chef",
+    "pluralName": "mini-chefs",
+    "displayName": "Mini_chef",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "est_chef": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "admin_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "admin::user"
+    }
+  }
+}
